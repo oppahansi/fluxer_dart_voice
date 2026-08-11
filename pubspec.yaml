@@ -1,0 +1,26 @@
+name: fluxer_dart_voice
+description: >-
+  Voice support for the fluxer_dart ecosystem: Fluxer's gateway voice
+  handshake plus the LiveKit media transport it hands off to. Not yet
+  implemented — scaffolding only.
+version: 0.1.0
+homepage: https://github.com/oppahansi/fluxer_dart_voice
+repository: https://github.com/oppahansi/fluxer_dart_voice
+# Uses path deps on sibling packages during local development — remove this
+# line once those are published/hosted and this is ready for a real release.
+publish_to: 'none'
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  fluxer_dart_core:
+    path: ../fluxer_dart_core
+  fluxer_dart_gateway:
+    path: ../fluxer_dart_gateway
+  fluxer_dart_utils:
+    path: ../fluxer_dart_utils
+
+dev_dependencies:
+  lints: ^6.1.0
+  test: ^1.31.2
