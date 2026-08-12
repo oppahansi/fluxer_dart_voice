@@ -16,6 +16,19 @@ Neither has been verified against Fluxer's own source yet — nothing here
 should be assumed to match Discord's voice protocol until it's actually
 checked, the way every other verified fact in this ecosystem was.
 
+## Fluxer version
+
+Not yet applicable — as noted above, nothing in this package has been
+implemented or verified against Fluxer's voice protocol (gateway voice
+opcodes or the LiveKit media transport) yet. The rest of the ecosystem
+is verified against REST API version `1.0.0` and gateway protocol
+version `1`, checked against a self-hosted instance running image tag
+`v1` as of 2026-08-12 — see
+[`fluxer_dart_core`](https://github.com/oppahansi/fluxer_dart_core)'s
+README for how. Whoever implements this package should pin down and
+record the same detail for voice specifically, not assume it inherits
+the rest of the ecosystem's verification.
+
 ## Part of the fluxer_dart ecosystem
 
 | Package | Purpose |
