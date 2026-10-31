@@ -1,5 +1,7 @@
 # fluxer_dart_voice
 
+[![Discord](https://img.shields.io/static/v1?logo=discord&label=discord&message=Join&color=blue)](https://discord.gg/ncKmDEArqg)
+
 Voice support for the [fluxer_dart](https://github.com/oppahansi/fluxer_dart) ecosystem.
 
 **Scaffolding only — not implemented yet.** Deferred until there's real
